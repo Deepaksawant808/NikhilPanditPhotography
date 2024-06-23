@@ -120,12 +120,17 @@
     box-sizing: border-box;
 }
  
+#slideimgs{
+  height: auto;
+    width: 100%;
+    
+}
 
 .sliderimg{
-    height: 250px;
+    height: auto;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: auto;
     display: grid;
     place-items: center;
     overflow: hidden;
